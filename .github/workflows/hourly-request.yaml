@@ -1,0 +1,9 @@
+name: 'Hourly Request'
+on:
+  schedule:
+    - cron: '* * * * *'
+jobs:
+  Hourly-Request:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "my name is heck"
